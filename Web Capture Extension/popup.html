@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Capture Extension</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    #container{
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    button{
+      padding: 10px;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <button id="webCaptureBtn">Capture Web Page</button>
+    <button id="mobileCaptureBtn">Capture Mobile Page</button>
+  </div>
+</body>
+</html>
+<script src="popup.js"></script>
